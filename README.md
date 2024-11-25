@@ -4,6 +4,14 @@ Final Project for the discipline "Python for Data Analysis" (MEPHI)
 https://drive.google.com/drive/u/1/folders/1D7fICoKSprlF28YOlIYg9zW0QpbUimuP
 
 Визуализация для задания 1:
+# Save the visualizations as HTML files
+hist_fig.write_html("age_histogram.html")
+box_fig.write_html("age_boxplot.html")
+
+print("HTML files created:")
+print("1. Histogram: age_histogram.html")
+print("2. Boxplot: age_boxplot.html")
+
 Гистограмма:
 <!DOCTYPE html>
 <html>
